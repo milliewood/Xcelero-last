@@ -240,17 +240,17 @@ function Header() {
           style={{ height: '200px' }}
         />
         <div>
-          <p className="font-medium text-black mt-[-5rem] ml-5" style={{ textAlign: 'left' }}>
+         <p className="font-medium text-black mt-[-5rem] ml-5" style={{ textAlign: 'left' }}>
             Xcelero, the architects of digital transformation, 
             stand at the forefront of revolutionizing businesses through 
             cutting-edge technology infrastructure. Our mission is to empower 
             companies by crafting robust and scalable digital foundations that 
-            fuel innovation and drive success. We understand that in today's 
+            fuel innovation and drive success. We understand that in today&apos;s 
             fast-paced world, a strong tech infrastructure is essential for 
             sustained growth. At Xcelero, we offer a comprehensive suite of 
             services tailored to meet the unique needs of each client, ensuring
             that their digital journey is smooth, secure, and efficient. However, 
-            the keys to this technological wonderland are exclusive &ndash; accessible {/* Replaced the en dash with &ndash; */}
+            the keys to this technological wonderland are exclusive &ndash; accessible
             only through a simple and seamless sign-up process. We believe in the
             power of collaboration and are excited to join hands with visionary 
             businesses ready to embrace the future. Unleash the potential of your
