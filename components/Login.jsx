@@ -10,10 +10,17 @@ const Login = () => {
 
   return (
     <div>
-      <button
+          <button
         onClick={handleGoogleSignIn}
-        className="px-4 py-2 border flex gap-2 border-slate-200 rounded-lg text-slate-700 hover:border-slate-400 hover:text-slate-900 hover:shadow transition duration-150"
-        style={{ position: 'relative', top: '5rem', left: '-2.7rem' }}
+        className="flex items-center gap-2 border border-slate-200 rounded-lg text-slate-700 hover:border-slate-400 hover:text-slate-900 hover:shadow transition duration-150"
+        style={{
+          position: "relative",
+          top: "5rem",
+          left: "50%",
+          transform: "translateX(-50%)",
+          display: "flex",
+          justifyContent: "center",
+        }}
       >
         <Image
           src="https://www.svgrepo.com/show/475656/google-color.svg"
