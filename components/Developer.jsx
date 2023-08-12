@@ -48,9 +48,9 @@ const Developer = () => {
         }}
         className="card-body"
       >
-        "As we embark on this exciting new chapter, we will seize every
+        &ldquo;As we embark on this exciting new chapter, we will seize every
         opportunity to disrupt the industry, push boundaries, and redefine
-        what's possible."
+        what's possible.&ldquo;
       </p>
       <p
         style={{
