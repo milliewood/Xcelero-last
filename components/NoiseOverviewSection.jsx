@@ -66,9 +66,6 @@ function NoiseOverviewSection() {
         <div>
           <Developer />
         </div>
-        <p className="text-xl font-medium text-[#6E6F72]">
-            <span className="text-white">Our Esteemed CEO</span> quality isn&apos;t expensive<span className="text-green" style={{ position: 'relative', left: '0.3rem' }}>it&apos;s priceless</span>
-          </p>
       </div>
     </div>
   );
