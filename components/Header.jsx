@@ -263,7 +263,6 @@ function Header() {
               </div>
             </FindUsModal>
           )}
-           {/* ProductsModal */}
            {showProductsModal && (
             <ProductsModal 
             isVisible={showProductsModal}
@@ -275,7 +274,7 @@ function Header() {
               <p className="text-[#3C6E71] ml-3 text-sm">Digital Portfolios @4500ksh</p>
             </div>
             <div className="text-[#4A4E69] ml-3 text-sm">
-            <p> For more information email at Xcelero001@gmail.com </p>
+            <p> For more information email at Xcelero001@gmail.com &apos; </p>
             </div>
             </ProductsModal>
            )}
