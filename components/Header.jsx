@@ -306,11 +306,6 @@ function Header() {
               <Login />
             </div>
           </LoginModal>
-              </div>
-              <div>
-                
-              </div>
-            </LoginModal>
           )}
         </div>
       </div>
