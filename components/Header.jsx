@@ -233,7 +233,7 @@ function Header() {
               isVisible={showOverviewModal}
               onClose={() => setShowOverviewModal(false)}
             >
-                      <Image
+            <Image
           className="mt-[-3.5rem] ml-[-2rem]"
           src="/images/xcelero3.png"
           alt="Logo3" 
