@@ -42,8 +42,8 @@ function NoiseOverviewSection() {
             <Image
               src="/images/opencv.png"
               alt="cv-image"
-              width={250}
-              height={250}
+              width={300}
+              height={300}
             />
             <h1 className="text-2xl flex text-white text-center" style={{ fontSize: '14px' }}>
               OpenCV and Machine Learning to unlock new active possibilities for your business. 
@@ -55,10 +55,7 @@ function NoiseOverviewSection() {
         </div>
       </div>
       <div className="lg:w-1/2 w-full h-full flex justify-center items-center overflow-hidden relative lg:p-20 p-6">
-        <div className="w-[90%] h-full flex">
-          <p className="text-xl font-medium text-[#6E6F72]">
-            <span className="text-white">Our Esteemed CEO</span> quality isn&apos;t expensive<span className="text-green" style={{ position: 'relative', left: '0.3rem' }}>it&apos;s priceless</span>
-          </p>
+        <div className="w-[90%] h-full flex">    
         </div>
         <div className="w-[40%] h-full flex z-50 pl-4 relative">
           <div className="noise-point-line h-36">
@@ -69,6 +66,9 @@ function NoiseOverviewSection() {
         <div>
           <Developer />
         </div>
+        <p className="text-xl font-medium text-[#6E6F72]">
+            <span className="text-white">Our Esteemed CEO</span> quality isn&apos;t expensive<span className="text-green" style={{ position: 'relative', left: '0.3rem' }}>it&apos;s priceless</span>
+          </p>
       </div>
     </div>
   );
