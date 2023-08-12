@@ -233,10 +233,10 @@ function Header() {
               isVisible={showOverviewModal}
               onClose={() => setShowOverviewModal(false)}
             >
-                       <Image
+                      <Image
           className="mt-[-3.5rem] ml-[-2rem]"
           src="/images/xcelero3.png"
-          alt="Logo3" {/* Removed duplicate alt attribute */}
+          alt="Logo3" 
           style={{ height: '200px' }}
         />
         <div>
