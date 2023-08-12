@@ -41,17 +41,18 @@ const Developer = () => {
         Ceo Xcelero
       </p>
       <p
-        style={{
-          margin: "13px 0 0 10px",
-          color: "rgb(31, 31, 31)",
-          fontSize: "15px",
-        }}
-        className="card-body"
-      >
-        &ldquo;As we embark on this exciting new chapter, we will seize every
-        opportunity to disrupt the industry, push boundaries, and redefine
-        what's possible.&ldquo;
-      </p>
+  style={{
+    margin: "13px 0 0 10px",
+    color: "rgb(31, 31, 31)",
+    fontSize: "15px",
+  }}
+  className="card-body"
+>
+  &ldquo;As we embark on this exciting new chapter, we will seize every
+  opportunity to disrupt the industry, push boundaries, and redefine
+  what's possible.&rdquo;
+</p>
+
       <p
         style={{
           float: "right",
