@@ -95,7 +95,7 @@ function Header() {
         className="lg:w-[70%] w-full px-4 h-full pt-2 flex items-center border-b border-b-[#3D3D3D]"
       >
         <div className="w-1/2 h-full flex items-center justify-start">
-          <Imager src="/images/logo.png" style={{ width: "177px", height: "60px" }}   alt="Company Logo" />
+          <Image src="/images/logo.png" style={{ width: "177px", height: "60px" }}   alt="Company Logo" />
         </div>
         <div>
           {/* Display user email and name if authenticated */}
