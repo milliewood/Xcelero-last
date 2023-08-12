@@ -17,7 +17,21 @@ import Image from "next/image";
 
 const ClockIcon = () => {
   return (
-<svg class="h-5 w-5 text-gray-400 ml-3"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="12" cy="12" r="9" />  <polyline points="12 7 12 12 15 15" /></svg>
+ <svg
+      className="h-5 w-5 text-gray-400 ml-3"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      strokeWidth="2"
+      stroke="currentColor"
+      fill="none"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path stroke="none" d="M0 0h24v24H0z" />
+      <circle cx="12" cy="12" r="9" />
+      <polyline points="12 7 12 12 15 15" />
+    </svg>
   );
 };
 
@@ -102,8 +116,8 @@ function Header() {
           {session?.user && (
             <div className="lg:flex">
               <p className="text-xs px-3 py-1 text-[#ffffff] lg:py-0 lg:px-0 lg:w-auto md:w-1/2 sm:w-full">
-                {session.user.email}
-              </p>
+              {session.user.email.replace(/'/g, "&apos;")}
+            </p>
             </div>
           )}
         </div>
