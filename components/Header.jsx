@@ -235,7 +235,7 @@ function Header() {
             >
             <Image src="/images/logo.png" style={{ width: "177px" }}   alt="Company Logo" />
         <div>
-         <p className="font-medium text-black mt-[5rem] ml-5" style={{ textAlign: 'left' }}>
+         <p className="font-medium text-black mt-[3rem] ml-5" style={{ textAlign: 'left' }}>
             Xcelero, the architects of digital transformation, 
             stand at the forefront of revolutionizing businesses through 
             cutting-edge technology infrastructure. Our mission is to empower 
