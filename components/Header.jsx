@@ -233,31 +233,32 @@ function Header() {
               isVisible={showOverviewModal}
               onClose={() => setShowOverviewModal(false)}
             >
-                         <Image
-              className="mt-[-3.5rem] ml-[-2rem]"
-              src="/images/xcelero3.png"
-              alt="Logo3"
-              style={{ height: '200px' }}
-            />
-            <div>
-              <p className="font-medium text-black mt-[-5rem] ml-5" style={{ textAlign: 'left' }}>
-                Xcelero, the architects of digital transformation,
-                stand at the forefront of revolutionizing businesses through
-                cutting-edge technology infrastructure. Our mission is to empower
-                companies by crafting robust and scalable digital foundations that
-                fuel innovation and drive success. We understand that in today's
-                fast-paced world, a strong tech infrastructure is essential for
-                sustained growth. At Xcelero, we offer a comprehensive suite of
-                services tailored to meet the unique needs of each client, ensuring
-                that their digital journey is smooth, secure, and efficient. However,
-                the keys to this technological wonderland are exclusive – accessible
-                only through a simple and seamless sign-up process. We believe in the
-                power of collaboration and are excited to join hands with visionary
-                businesses ready to embrace the future. Unleash the potential of your
-                business with Xcelero, where innovation meets infrastructure, and the
-                possibilities are limitless.
-              </p>
-            </div>
+                       <Image
+          className="mt-[-3.5rem] ml-[-2rem]"
+          src="/images/xcelero3.png"
+          alt="Logo3" {/* Removed duplicate alt attribute */}
+          style={{ height: '200px' }}
+        />
+        <div>
+          <p className="font-medium text-black mt-[-5rem] ml-5" style={{ textAlign: 'left' }}>
+            Xcelero, the architects of digital transformation, 
+            stand at the forefront of revolutionizing businesses through 
+            cutting-edge technology infrastructure. Our mission is to empower 
+            companies by crafting robust and scalable digital foundations that 
+            fuel innovation and drive success. We understand that in today's 
+            fast-paced world, a strong tech infrastructure is essential for 
+            sustained growth. At Xcelero, we offer a comprehensive suite of 
+            services tailored to meet the unique needs of each client, ensuring
+            that their digital journey is smooth, secure, and efficient. However, 
+            the keys to this technological wonderland are exclusive &ndash; accessible {/* Replaced the en dash with &ndash; */}
+            only through a simple and seamless sign-up process. We believe in the
+            power of collaboration and are excited to join hands with visionary 
+            businesses ready to embrace the future. Unleash the potential of your
+            business with Xcelero, where innovation meets infrastructure, and the
+            possibilities are limitless.
+          </p>
+        </div>
+
             </OverviewModal>
           )}
 
