@@ -296,17 +296,16 @@ function Header() {
 
           {/* LoginModal */}
           {showLoginModal && (
-            <LoginModal
-              isVisible={showLoginModal}
-              onClose={() => setShowLoginModal(false)}
-            >
-              <div className="flex items-center">
-                <Image
-                  src="/images/logo.png"
-                  style={{ width: "177px", height: "60px", position: "relative", left: "8.8rem" }}
-                  alt="another-logo"
-                />
-                <Login />
+           <LoginModal isVisible={showLoginModal} onClose={() => setShowLoginModal(false)}>
+            <div className="flex flex-col items-center">
+              <Image
+                src="/images/logo.png"
+                style={{ width: "177px", height: "60px" }}
+                alt="another-logo"
+              />
+              <Login />
+            </div>
+          </LoginModal>
               </div>
               <div>
                 
