@@ -50,7 +50,7 @@ const Developer = () => {
       >
         "As we embark on this exciting new chapter, we will seize every
         opportunity to disrupt the industry, push boundaries, and redefine
-        what&apos;s possible."
+        what's possible."
       </p>
       <p
         style={{
