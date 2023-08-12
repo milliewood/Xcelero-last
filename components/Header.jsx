@@ -9,6 +9,7 @@ import PlanCard from "./PlanCard";
 import { useSession } from 'next-auth/react';
 import OverviewModal from "./OverviewModal";
 import ContactForm from "./ContactForm";
+import Image from "next/image";
 
 
 
@@ -94,7 +95,7 @@ function Header() {
         className="lg:w-[70%] w-full px-4 h-full pt-2 flex items-center border-b border-b-[#3D3D3D]"
       >
         <div className="w-1/2 h-full flex items-center justify-start">
-          <img src="/images/logo.png" style={{ width: "177px", height: "60px" }} />
+          <Imager src="/images/logo.png" style={{ width: "177px", height: "60px" }}   alt="Company Logo" />
         </div>
         <div>
           {/* Display user email and name if authenticated */}
@@ -218,7 +219,7 @@ function Header() {
               isVisible={showOverviewModal}
               onClose={() => setShowOverviewModal(false)}
             >
-              <img className="mt-[-3.5rem] ml-[-2rem]" src="/images/xcelero3.png" alt="logo3" style={{height:'200px'}}></img>
+              <Image className="mt-[-3.5rem] ml-[-2rem]" src="/images/xcelero3.png" alt="logo3" style={{height:'200px'}}   alt="Logo3" />
               <div>
                 <p className="font-medium text-black mt-[-5rem] ml-5" style={{textAlign:'left'}}>        
               Xcelero, the architects of digital transformation, 
@@ -286,9 +287,10 @@ function Header() {
               onClose={() => setShowLoginModal(false)}
             >
               <div className="flex items-center">
-                <img
+                <Image
                   src="/images/logo.png"
                   style={{ width: "177px", height: "60px", position: "relative", left: "8.8rem" }}
+                  alt="another-logo"
                 />
                 <Login />
               </div>
