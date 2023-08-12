@@ -117,17 +117,14 @@ const SocialMediaButtons = () => {
           onMouseEnter={() => handleHover('card1')}
           onMouseLeave={() => handleHover(null)}
         >
-                 <img
-                src="/socialmarks/instamark.png"
-                alt="Instagram Logo"
-                width="50"
-                height="50"
-                className="instagram"
-                style={{ ...styles.instagram, ...(hoveredCard === 'card1' && styles.iconHover) }}
-                />
-
-
-
+          <Image
+            src="/socialmarks/instamark.png"
+            alt="Instagram Logo"
+            width={50}
+            height={50}
+            className="instagram"
+            style={{ ...styles.instagram, ...(hoveredCard === 'card1' && styles.iconHover) }}
+          />
         </button>
         <button
           style={{ ...styles.card2, ...styles.card2Hover }}
@@ -135,14 +132,14 @@ const SocialMediaButtons = () => {
           onMouseEnter={() => handleHover('card2')}
           onMouseLeave={() => handleHover(null)}
         >
-                <img
-        src="/socialmarks/gitmark.png"
-        alt="Github Logo"
-        width="30"
-        height="30"
-        className="github"
-        style={{ ...styles.github, ...(hoveredCard === 'card2' && styles.iconHover) }}
-        />
+          <Image
+            src="/socialmarks/gitmark.png"
+            alt="Github Logo"
+            width={30}
+            height={30}
+            className="github"
+            style={{ ...styles.github, ...(hoveredCard === 'card2' && styles.iconHover) }}
+          />
         </button>
       </div>
       <div style={styles.down}>
@@ -152,15 +149,14 @@ const SocialMediaButtons = () => {
           onMouseEnter={() => handleHover('card3')}
           onMouseLeave={() => handleHover(null)}
         >
-             <img
-        src="/socialmarks/twittermark.png"
-        alt="Twitter Logo"
-        width="30"
-        height="30"
-        className="twitter"
-        style={{ ...styles.twitter, ...(hoveredCard === 'card3' && styles.iconHover) }}
-        />
-
+          <Image
+            src="/socialmarks/twittermark.png"
+            alt="Twitter Logo"
+            width={30}
+            height={30}
+            className="twitter"
+            style={{ ...styles.twitter, ...(hoveredCard === 'card3' && styles.iconHover) }}
+          />
         </button>
         <button
           style={{ ...styles.card4, ...styles.card4Hover }}
@@ -168,14 +164,14 @@ const SocialMediaButtons = () => {
           onMouseEnter={() => handleHover('card4')}
           onMouseLeave={() => handleHover(null)}
         >
-          <img
-        src="/socialmarks/discordmark.png"
-        alt="Discord Logo"
-        width="30"
-        height="30"
-        className="discord"
-        style={{ ...styles.discord, ...(hoveredCard === 'card2' && styles.iconHover) }}
-        />
+          <Image
+            src="/socialmarks/discordmark.png"
+            alt="Discord Logo"
+            width={30}
+            height={30}
+            className="discord"
+            style={{ ...styles.discord, ...(hoveredCard === 'card2' && styles.iconHover) }}
+          />
         </button>
       </div>
     </div>
