@@ -1,7 +1,7 @@
 
 "use client"
 import React from 'react';
-
+import Image from "next/image"
 const CardComponent = () => {
  
   return (
@@ -10,7 +10,7 @@ const CardComponent = () => {
   <div className="content">
     <div className="back">
       <div className="back-content">
-      <img
+      <Image
             src="/images/artisan.png"
             alt="Icon"
             height="60"
