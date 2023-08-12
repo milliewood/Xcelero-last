@@ -1,4 +1,6 @@
-import React from 'react';
+import React from "react";
+import Image from "next/image"
+
 
 const ShowreelsComponent = () => {
   return (
@@ -24,7 +26,7 @@ const ShowreelsComponent = () => {
               <source src='https://github.com/ahampriyanshu/gfg/raw/main/media/showreel.mp4' type="video/mp4" />
               
             </video>
-            <img
+            <Image
               alt="play"
               className="showreels-btn"
               src='https://github.com/ahampriyanshu/gfg/raw/main/media/play.png'
