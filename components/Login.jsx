@@ -17,6 +17,7 @@ const Login = () => {
           position: "relative",
           top: "5rem",
           left: "50%",
+          padding: "8px 10px",
           transform: "translateX(-50%)",
           display: "flex",
           justifyContent: "center",
