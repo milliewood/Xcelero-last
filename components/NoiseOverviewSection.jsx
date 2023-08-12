@@ -42,11 +42,11 @@ function NoiseOverviewSection() {
             <Image
               src="/images/opencv.png"
               alt="cv-image"
-              width={230}
-              height={230}
+              width={250}
+              height={250}
             />
             <h1 className="text-2xl flex text-white text-center" style={{ fontSize: '14px' }}>
-              OpenCV and Machine Learning to unlock new <span className="text-green" style={{ position: 'relative', left: '0.3rem' }}>active possibilities for your business. </span>
+              OpenCV and Machine Learning to unlock new active possibilities for your business. 
             </h1>
           </div>
         </div>
