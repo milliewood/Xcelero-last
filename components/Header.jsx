@@ -233,12 +233,7 @@ function Header() {
               isVisible={showOverviewModal}
               onClose={() => setShowOverviewModal(false)}
             >
-            <Image
-          className="mt-[-3.5rem] ml-[-2rem]"
-          src="/images/xcelero3.png"
-          alt="Logo3" 
-          style={{ height: '200px' }}
-        />
+            <Image src="/images/logo.png" style={{ width: "177px" }}   alt="Company Logo" />
         <div>
          <p className="font-medium text-black mt-[-5rem] ml-5" style={{ textAlign: 'left' }}>
             Xcelero, the architects of digital transformation, 
