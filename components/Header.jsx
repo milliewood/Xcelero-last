@@ -215,7 +215,7 @@ function Header() {
             </li>
             )}
             <li>
-              <button onClick={toggleLoginModal} className="text-xs px-3 py-1 hover:text-[#959ba1] cursor-pointer">
+              <button onClick={toggleLoginModal} className="text-xs px-3 py-1 hover:text-[#959ba1] cursor-pointer ml-auto">
                 Signup
               </button>
             </li>
