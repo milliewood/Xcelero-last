@@ -26,11 +26,7 @@ const ShowreelsComponent = () => {
               <source src='https://github.com/ahampriyanshu/gfg/raw/main/media/showreel.mp4' type="video/mp4" />
               
             </video>
-            <Image
-              alt="play"
-              className="showreels-btn"
-              src='https://github.com/ahampriyanshu/gfg/raw/main/media/play.png'
-            />
+            
           </div>
         </div>
       </div>
