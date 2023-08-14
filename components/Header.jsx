@@ -107,16 +107,16 @@ function Header() {
       <div
         id="header_sub"
         className="lg:w-[70%] w-full px-4 h-full pt-2 flex items-center border-b border-b-[#3D3D3D]"
-      >
+      />
          <div className="w-1/2 h-full flex items-center justify-start">
-      <div className="hidden lg:block"> 
+          <div className="hidden lg:block"> 
         <Image
           src="/images/logo.png"
           style={{ width: "177px", height: "60px" }}
           alt="Company Logo"
           className="logo"
         />
-      </div>
+       </div>
         <div>
           {/* Display user email and name if authenticated */}
           {session?.user && (
