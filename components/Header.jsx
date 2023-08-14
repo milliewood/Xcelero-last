@@ -109,7 +109,19 @@ function Header() {
         className="lg:w-[70%] w-full px-4 h-full pt-2 flex items-center border-b border-b-[#3D3D3D]"
       >
         <div className="w-1/2 h-full flex items-center justify-start">
-          <Image src="/images/logo.png" style={{ width: "177px", height: "60px" }}   alt="Company Logo" />
+          <style>
+            @media (max-width: 640px) {
+              .logo {
+                display: none;
+              }
+            }
+          </style>
+          <Image
+            src="/images/logo.png"
+            style={{ width: "177px", height: "60px" }}
+            alt="Company Logo"
+            className="logo" // Added a class name for the logo image
+          />
         </div>
         <div>
           {/* Display user email and name if authenticated */}
