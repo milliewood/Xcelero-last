@@ -69,8 +69,8 @@ function Hero() {
       id="hero"
       className="h-[285vh] w-full flex relative flex-col items-center justify-center"
     >
-      <div className="h-screen hero-sub  fixed top-0 w-full flex flex-col items-center justify-center">
-      <div className="p-2 bg-transparent items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex hero-content hero-desc" role="alert mt-[-4rem]">
+      <div className="h-screen hero-sub  fixed top-0 w-full flex flex-col items-center justify-center mt-[-4rem]">
+      <div className="p-2 bg-transparent items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex hero-content hero-desc" role="alert ">
     <span className="flex rounded-full  uppercase px-2 py-1 text-xs font-bold mr-3" style={{background:'#003049'}}>New</span>
     <span className="font-semibold mr-2 text-left flex-auto">Defining Your Business Infrastracture</span>
     <svg className="fill-current opacity-75 h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M12.95 10.707l.707-.707L8 4.343 6.586 5.757 10.828 10l-4.242 4.243L8 15.657l4.95-4.95z"/></svg>
