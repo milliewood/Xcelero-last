@@ -7,7 +7,7 @@ const CustomButton = () => {
 
   const getButtonStyle = () => ({
     display: 'flex',
-    alignItems: 'center',
+    alignItems: 'right',
     justifyContent: 'flex-start',
     width: isHovered ? '105px' : '45px',
     height: '40px',
