@@ -105,14 +105,6 @@ function Header() {
   return (
     <header className="w-full lg:h-16 h-24 z-[100] flex justify-center fixed top-0">
          <div className="w-1/2 h-full flex items-center justify-start">
-          <div className="hidden lg:block"> 
-        <Image
-          src="/images/logo.png"
-          style={{ width: "177px", height: "60px" }}
-          alt="Company Logo"
-          className="logo"
-        />
-       </div>
         <div>
           {/* Display user email and name if authenticated */}
           {session?.user && (
