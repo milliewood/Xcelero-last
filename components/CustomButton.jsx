@@ -69,7 +69,7 @@ const CustomButton = () => {
   style={{
     ...getButtonStyle(),
     position: "relative",
-    left: "5rem",
+    left: "10rem",
   }}
   onMouseEnter={handleMouseEnter}
   onMouseLeave={handleMouseLeave}
