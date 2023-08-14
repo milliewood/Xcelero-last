@@ -104,10 +104,6 @@ function Header() {
 
   return (
     <header className="w-full lg:h-16 h-24 z-[100] flex justify-center fixed top-0">
-      <div
-        id="header_sub"
-        className="lg:w-[70%] w-full px-4 h-full pt-2 flex items-center border-b border-b-[#3D3D3D]"
-      />
          <div className="w-1/2 h-full flex items-center justify-start">
           <div className="hidden lg:block"> 
         <Image
