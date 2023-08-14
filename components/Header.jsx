@@ -112,7 +112,7 @@ function Header() {
         <div>
           {session?.user && (
             <div className="lg:flex">
-              <p className="text-xs px-3 py-1 text-[#ffffff] lg:py-0 lg:px-0 lg:w-auto md:w-1/2 sm:w-full">
+              <p className="text-xs px-3 py-1 text-[#ffffff] lg:py-0 lg:px-0 lg:w-auto md:w-1/2 sm:w-full ml-[-2rem]">
                 {session.user.email}
               </p>
             </div>
