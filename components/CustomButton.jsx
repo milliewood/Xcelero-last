@@ -65,7 +65,7 @@ const CustomButton = () => {
   };
 
   return (
-<div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center', height: '100vh', padding: '20px' }}>
+
   <button
     onMouseEnter={handleMouseEnter}
     onMouseLeave={handleMouseLeave}
@@ -80,7 +80,7 @@ const CustomButton = () => {
     logout
   </div>
 </button>
-  </div>
+
 
   );
 };
