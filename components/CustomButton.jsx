@@ -7,7 +7,7 @@ const CustomButton = () => {
 
   const getButtonStyle = () => ({
     display: 'flex',
-    alignItems: 'right',
+    alignItems: 'center',
     justifyContent: 'flex-start',
     width: isHovered ? '105px' : '45px',
     height: '40px',
@@ -70,6 +70,8 @@ const CustomButton = () => {
       style={getButtonStyle()}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
+
+      style={{position: "relative", left: "5rem"}}
     >
       <div className="sign" style={getSignStyle()}>
         <svg viewBox="0 0 512 512" style={getSvgStyle()}>
