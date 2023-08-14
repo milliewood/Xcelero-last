@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import CustomButton from "./CustomButton";
 import FindUsModal from "./FindUsModal";
-import Switchers from "./Switchers";
 import LoginModal from "./LoginModal";
 import ProductsModal from "./ProductsModal";
 import Login from "./Login";
@@ -266,11 +265,6 @@ function Header() {
               <div className="flex items-center">
                 <ClockIcon />
                 <h3 className="text-black ml-2">Business Hours</h3>
-              </div>
-             
-              <div>
-                <br />
-                <Switchers />
               </div>
               <br/>
               <div>
