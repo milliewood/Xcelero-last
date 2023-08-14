@@ -103,15 +103,20 @@ function Header() {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <header className="w-full lg:h-16 h-24 z-[100] flex justify-center fixed top-0">
-         <div className="w-1/2 h-full flex items-center justify-start">
+     <header className="w-full lg:h-16 h-24 z-[100] flex justify-center fixed top-0">
+      <div
+        id="header_sub"
+        className="lg:w-[70%] w-full px-4 h-full pt-2 flex items-center border-b border-b-[#3D3D3D]"
+      >
+        <div className="w-1/2 h-full flex items-center justify-start">
+          <img src="/images/logo.png" style={{ width: "177px", height: "60px" }} />
+        </div>
         <div>
-          {/* Display user email and name if authenticated */}
           {session?.user && (
             <div className="lg:flex">
               <p className="text-xs px-3 py-1 text-[#ffffff] lg:py-0 lg:px-0 lg:w-auto md:w-1/2 sm:w-full">
-              {session.user.email.replace(/'/g, "&apos;")}
-            </p>
+                {session.user.email}
+              </p>
             </div>
           )}
         </div>
