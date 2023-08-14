@@ -69,7 +69,7 @@ function Hero() {
       id="hero"
       className="h-[285vh] w-full flex relative flex-col items-center justify-center"
     >
-      <div className="h-screen hero-sub  fixed top-0 w-full flex flex-col items-center justify-center mt-[-4rem]">
+      <div className="h-screen hero-sub  fixed top-0 w-full flex flex-col items-center justify-center mt-[-4.8rem]">
       <div className="p-2 bg-transparent items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex hero-content hero-desc" role="alert ">
     <span className="flex rounded-full  uppercase px-2 py-1 text-xs font-bold mr-3" style={{background:'#003049'}}>New</span>
     <span className="font-semibold mr-2 text-left flex-auto">Defining Your Business Infrastracture</span>
