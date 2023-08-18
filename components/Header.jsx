@@ -268,6 +268,9 @@ function Header() {
               </div>
               <br/>
               <div>
+                <h3 className="ml-9">Monday to Friday from 8am to 8pm</h3>
+              </div>
+              <div>
               <ContactForm/>
               </div>
             </FindUsModal>
