@@ -68,7 +68,7 @@ function Header() {
   };
 
   const [isCollapsed, setIsCollapsed] = useState(true);
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
+
 
   
   const [showMenu, setShowMenu] = useState(false);
@@ -121,7 +121,7 @@ function Header() {
             </button>
               </li>
               <br/>
-              {isAuthenticated && (
+              
               <li>
                 <button onClick={toggleProductsModal} className="text-xs px-3 py-1 hover:text-[#a8bbcf] cursor-pointer" style={{ fontSize: '20px', display: 'flex', alignItems: 'center' }}>
                   <svg className={`h-4 w-4 mr-2 ${session?.user ?'text-white' :  'text-gray-400'}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -130,9 +130,9 @@ function Header() {
                   Products
                 </button>
               </li>
-            )}
+       
               <br/>
-              {isAuthenticated && (
+             
               <li>
               <button onClick={toggleFindUsModal} className="text-xs px-3 py-1 hover:text-[#959ba1] cursor-pointer" style={{ fontSize: '20px', display: 'flex', alignItems: 'center' }}>
               <svg className="h-4 w-4 text-white mr-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -166,20 +166,20 @@ function Header() {
                 Overview
               </button>
             </li>
-            {isAuthenticated && (
+          
             <li>
               <button onClick={toggleProductsModal} className="text-xs px-3 py-1 hover:text-[#a8bbcf] cursor-pointer">
                 Products
               </button>
             </li>
-            )}
-            {isAuthenticated && (
+         
+          
             <li>
               <button onClick={toggleFindUsModal} className="text-xs px-3 py-1 hover:text-[#959ba1] cursor-pointer">
                 Discover
               </button>
             </li>
-            )}
+         
             <li>
               <button onClick={toggleLoginModal} className="text-xs px-3 py-1 hover:text-[#959ba1] cursor-pointer ml-auto">
                 Signup
