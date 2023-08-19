@@ -143,7 +143,7 @@ function Header() {
              Discover
             </button>
               </li>
-              )}
+            
               <br/>
               <li>
                 <button onClick={toggleLoginModal} className="text-xs px-3 py-1 hover:text-[#959ba1] cursor-pointer" style={{fontSize:'20px'}}>
