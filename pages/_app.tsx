@@ -1,8 +1,8 @@
 import '/styles/globals.css';
 import { SessionProvider } from 'next-auth/react';
+import { AuthProvider } from './AuthContext'; 
 import { AppProps } from 'next/app';
 import { Session } from 'next-auth'; 
-
 
 interface CustomAppProps extends AppProps {
   session: Session; 
@@ -10,10 +10,11 @@ interface CustomAppProps extends AppProps {
 
 export default function App({ Component, pageProps, session }: CustomAppProps) {
   return (
-
-    <SessionProvider session={session}>
-      <Component {...pageProps} />
-    </SessionProvider>
+    <AuthProvider>
+      <SessionProvider session={session}>
+        <Component {...pageProps} />
+      </SessionProvider>
+    </AuthProvider>
   );
 }
 
