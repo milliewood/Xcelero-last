@@ -68,9 +68,9 @@ function Header() {
   };
 
   const [isCollapsed, setIsCollapsed] = useState(true);
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
 
   
-
   const [showMenu, setShowMenu] = useState(false);
 
   return (
