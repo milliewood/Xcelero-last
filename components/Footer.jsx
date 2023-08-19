@@ -3,7 +3,7 @@ import { useSession } from 'next-auth/react';
 import React, { useState, useEffect } from 'react';
 
 function Footer() {
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
+ 
   const { data: session } = useSession();
 
   useEffect(() => {
