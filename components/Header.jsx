@@ -67,34 +67,6 @@ function Header() {
     setShowMenu(!showMenu);
   };
 
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
-
-  const { data: session } = useSession();
-
-  useEffect(() => {
-    setIsAuthenticated(!!session?.user);
-    if (session?.user) {
-      const userEmail = session.user.email;
-
-      // Make an API call to save the user's email using fetch
-    
-        fetch("http://localhost:3001/api/save-email", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({ email: userEmail }),
-        })
-          .then((response) => response.json())
-          .then((data) => {
-            console.log(data.message); // Print the response message
-          })
-          .catch((error) => {
-            console.error("Error saving user email:", error);
-          });
-
-    }
-  }, [session]);
   const [isCollapsed, setIsCollapsed] = useState(true);
 
   
