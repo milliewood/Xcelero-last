@@ -9,11 +9,11 @@ interface CustomAppProps extends AppProps {
 
 export default function App({ Component, pageProps, session }: CustomAppProps) {
   return (
-    <AuthProvider>
+    
       <SessionProvider session={session}>
         <Component {...pageProps} />
       </SessionProvider>
-    </AuthProvider>
+ 
   );
 }
 
