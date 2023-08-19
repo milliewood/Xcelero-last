@@ -111,15 +111,7 @@ function Header() {
           <Image alt="companylogo" src="/images/logo.png" style={{ width: "137px", height: "40px" }} />
         </div>
         
-        <div>
-          {session?.user && (
-            <div className="lg:flex">
-              <p className="text-xs px-3 py-1 text-[#ffffff] lg:py-0 lg:px-0 lg:w-auto md:w-1/2 sm:w-full ml-[5rem]">
-                {session.user.email}
-              </p>
-            </div>
-          )}
-        </div>
+    
    
         <div className="w-1/2 h-full flex items-center justify-end">
           {/* SVG for the collapsible menu */}
