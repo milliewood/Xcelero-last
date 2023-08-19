@@ -1,6 +1,6 @@
 import '/styles/globals.css';
 import { SessionProvider } from 'next-auth/react';
-import { AuthProvider } from './AuthContext'; 
+import { AuthProvider } from './components/AuthContext'; 
 import { AppProps } from 'next/app';
 import { Session } from 'next-auth'; 
 
