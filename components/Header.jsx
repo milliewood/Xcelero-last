@@ -78,7 +78,7 @@ function Header() {
         className="lg:w-[70%] w-full px-4 h-full pt-2 flex items-center border-b border-b-[#3D3D3D]"
       >
         <div className="w-1/2 h-full flex items-center justify-start">
-          <Image alt="companylogo" src="/images/logo.png" style={{ width: "137px", height: "30px" }} />
+          <Image alt="companylogo" src="/images/logo.png" style={{ width: "137px", height: "40px" }} />
         </div>
         
     
