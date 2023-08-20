@@ -107,61 +107,63 @@ const ContactForm = () => {
     )}
 
     {/* Name input */}
-    <FormControl isRequired isInvalid={touched.name && !values.name} mb={5}>
-      <FormLabel className="text-black ml-2">Name</FormLabel>
-      <Input
-        className="block ml-2 rounded-md border-0 py-1.5 pl-4 pr-12 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 w-full sm:w-[300px]"
-        name="name"
-        type="text"
-        errorBorderColor="red.300"
-        value={values.name}
-        onChange={handleChange}
-        onBlur={onBlur}
-      />
-      <FormErrorMessage className="text-red-600 ml-2 text-sm">Name is required</FormErrorMessage>
-    </FormControl>
+<FormControl isRequired isInvalid={touched.name && !values.name} mb={5}>
+  <FormLabel className="text-black ml-2">Name</FormLabel>
+  <Input
+    className="block ml-2 rounded-md border-0 py-1.5 pl-4 pr-12 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 w-full sm:w-[300px] sm:pr-[48px] lg:w-full"
+    name="name"
+    type="text"
+    errorBorderColor="red.300"
+    value={values.name}
+    onChange={handleChange}
+    onBlur={onBlur}
+  />
+  <FormErrorMessage className="text-red-600 ml-2 text-sm">Name is required</FormErrorMessage>
+</FormControl>
 
-    {/* Email input */}
-    <FormControl isRequired isInvalid={touched.email && !values.email} mb={5}>
-      <FormLabel className="text-black ml-2">Email</FormLabel>
-      <Input
-        className="block ml-2 rounded-md border-0 py-1.5 pl-4 pr-12 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 w-full sm:w-[300px]"
-        name="email"
-        type="text"
-        value={values.email}
-        onChange={handleChange}
-        onBlur={onBlur}
-      />
-      <FormErrorMessage className="text-red-600 text-sm ml-2">Email is required</FormErrorMessage>
-    </FormControl>
+{/* Email input */}
+<FormControl isRequired isInvalid={touched.email && !values.email} mb={5}>
+  <FormLabel className="text-black ml-2">Email</FormLabel>
+  <Input
+    className="block ml-2 rounded-md border-0 py-1.5 pl-4 pr-12 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 w-full sm:w-[300px] sm:pr-[48px] lg:w-full"
+    name="email"
+    type="text"
+    value={values.email}
+    onChange={handleChange}
+    onBlur={onBlur}
+  />
+  <FormErrorMessage className="text-red-600 text-sm ml-2">Email is required</FormErrorMessage>
+</FormControl>
 
-    {/* Subject input */}
-    <FormControl isRequired isInvalid={touched.subject && !values.subject} mb={5}>
-      <FormLabel className="text-black ml-2">Subject</FormLabel>
-      <Input
-        className="block ml-2 rounded-md border-0 py-1.5 pl-4 pr-12 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 w-full sm:w-[300px]"
-        name="subject"
-        type="text"
-        value={values.subject}
-        onChange={handleChange}
-        onBlur={onBlur}
-      />
-      <FormErrorMessage className="text-red-600 text-sm ml-2">Subject is required</FormErrorMessage>
-    </FormControl>
+{/* Subject input */}
+<FormControl isRequired isInvalid={touched.subject && !values.subject} mb={5}>
+  <FormLabel className="text-black ml-2">Subject</FormLabel>
+  <Input
+    className="block ml-2 rounded-md border-0 py-1.5 pl-4 pr-12 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 w-full sm:w-[300px] sm:pr-[48px] lg:w-full"
+    name="subject"
+    type="text"
+    value={values.subject}
+    onChange={handleChange}
+    onBlur={onBlur}
+  />
+  <FormErrorMessage className="text-red-600 text-sm ml-2">Subject is required</FormErrorMessage>
+</FormControl>
 
-    {/* Message input */}
-    <FormControl isRequired isInvalid={touched.message && !values.message} mb={5}>
-      <FormLabel className="text-black ml-2">Message</FormLabel>
-      <Textarea
-        className="block ml-2 rounded-md border-0 py-1.5 pl-4 pr-12 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset sm:text-sm sm:leading-6 w-full sm:w-[300px]"
-        name="message"
-        type="text"
-        value={values.message}
-        onChange={handleChange}
-        onBlur={onBlur}
-      />
-      <FormErrorMessage className="text-red-600 text-sm ml-2">Message is required</FormErrorMessage>
-    </FormControl>
+{/* Message input */}
+<FormControl isRequired isInvalid={touched.message && !values.message} mb={5}>
+  <FormLabel className="text-black ml-2">Message</FormLabel>
+  <Textarea
+    className="block ml-2 rounded-md border-0 py-1.5 pl-4 pr-12 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset sm:text-sm sm:leading-6 w-full sm:w-[300px] sm:pr-[48px] lg:w-full"
+    name="message"
+    type="text"
+    value={values.message}
+    onChange={handleChange}
+    onBlur={onBlur}
+  />
+  <FormErrorMessage className="text-red-600 text-sm ml-2">Message is required</FormErrorMessage>
+</FormControl>
+
+
 
     {/* Submit button */}
     <Button
