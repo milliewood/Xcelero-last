@@ -1,13 +1,11 @@
 "use client"
 import { useSession } from 'next-auth/react';
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 
 function Footer() {
- 
   const { data: session } = useSession();
 
   useEffect(() => {
-    setIsAuthenticated(!!session?.user);
     if (session?.user) {
       const userEmail = session.user.email;
 
