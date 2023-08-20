@@ -69,8 +69,6 @@ function Header() {
 
   const [isCollapsed, setIsCollapsed] = useState(true);
 
-
-  
   const [showMenu, setShowMenu] = useState(false);
 
   return (
@@ -232,7 +230,7 @@ function Header() {
               </div>
               <br/>
               <div>
-                <h3 className="ml-6 text-black ">Monday to Friday from 8am to 8pm</h3>
+                <h3 className="ml-2 mt-[-2rem] text-black ">Monday to Friday from 8am to 8pm</h3>
               </div>
               <div>
               <ContactForm/>
