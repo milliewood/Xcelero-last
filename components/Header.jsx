@@ -232,7 +232,7 @@ function Header() {
               </div>
               <br/>
               <div>
-                <h3 className="ml-9 text-black ">Monday to Friday from 8am to 8pm</h3>
+                <h3 className="ml-6 text-black ">Monday to Friday from 8am to 8pm</h3>
               </div>
               <div>
               <ContactForm/>
