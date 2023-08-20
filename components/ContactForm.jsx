@@ -109,7 +109,7 @@ const ContactForm = () => {
     {/* Name input */}
 <FormControl isRequired isInvalid={touched.name && !values.name} mb={5}>
   <FormLabel className="text-black ml-2">Name</FormLabel>
-  <Box className="ml-2 pr-4 sm:pr-12">
+  <Box className="ml-2  sm:pr-12">
     <Input
       className="block rounded-md border-0 py-1.5 pl-4 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 w-full sm:w-[300px]"
       name="name"
@@ -126,7 +126,7 @@ const ContactForm = () => {
 {/* Email input */}
 <FormControl isRequired isInvalid={touched.email && !values.email} mb={5}>
   <FormLabel className="text-black ml-2">Email</FormLabel>
-  <Box className="ml-2 pr-4 sm:pr-12">
+  <Box className="ml-2  sm:pr-12">
     <Input
       className="block rounded-md border-0 py-1.5 pl-4 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 w-full sm:w-[300px]"
       name="email"
@@ -158,7 +158,7 @@ const ContactForm = () => {
 {/* Message input */}
 <FormControl isRequired isInvalid={touched.message && !values.message} mb={5}>
   <FormLabel className="text-black ml-2">Message</FormLabel>
-  <Box className="ml-2 pr-4 sm:pr-12">
+  <Box className="ml-2 sm:pr-12">
     <Textarea
       className="block rounded-md border-0 py-1.5 pl-4 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset sm:text-sm sm:leading-6 w-full sm:w-[300px]"
       name="message"
