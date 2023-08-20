@@ -230,7 +230,7 @@ function Header() {
               </div>
               <br/>
               <div>
-                <h3 className="ml-2 mt-[1rem] text-black text-md">Monday to Friday from 8am to 8pm</h3>
+                <h3 className="ml-2 mt-[-1rem] text-black" style={{fontSize: "12px"}}>Monday to Friday from 8am to 8pm</h3>
               </div>
               <div>
               <ContactForm/>
