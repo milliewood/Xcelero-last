@@ -29,7 +29,7 @@ function Footer() {
 
   return (
     <footer>
-      <div>
+      <div className="flex items-center justify-center mt-1">
         {session?.user && (
           <div className="lg:flex">
             <p className="text-xs px-3 py-1 text-[#ffffff] lg:py-0 lg:px-0 lg:w-auto md:w-1/2 sm:w-full ml-[5rem]">
